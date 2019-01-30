@@ -9,7 +9,7 @@ LABEL com.github.actions.name="GitHub Action for ruby"
 LABEL com.github.actions.description="Wraps the Ruby CLI to enable common ruby commands."
 LABEL com.github.actions.icon="package"
 LABEL com.github.actions.color="green"
-COPY LICENSE README.md THIRD_PARTY_NOTICE.md /
+#COPY LICENSE README.md THIRD_PARTY_NOTICE.md /
 
 COPY "entrypoint.sh" "/entrypoint.sh"
 ENTRYPOINT ["/entrypoint.sh"]
